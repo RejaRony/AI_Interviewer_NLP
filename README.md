@@ -1,4 +1,4 @@
- ![AI Interviewer Thumbnail](AI Interviewer_RejaRony.png)
+$$\text{![AI Interviewer Thumbnail](ai-interviewer-thumbnail.png)}$$
  # AI Interviewer
 
 👉 **LIVE DEMO:** [Try the Interviewer Here!](https://ai-interviewer-rejarony.onrender.com) 👈
