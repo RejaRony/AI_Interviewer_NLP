@@ -1,6 +1,7 @@
-﻿# AI Interviewer
+ ![AI Interviewer Thumbnail](AI Interviewer_RejaRony.png)
+ # AI Interviewer
 
-👉 **LIVE DEMO:** [Try the Interviewer Here!](YOUR_RENDER_URL_HERE) 👈
+👉 **LIVE DEMO:** [Try the Interviewer Here!](https://ai-interviewer-rejarony.onrender.com) 👈
 
 This project implements an AI interviewer that can conduct mock interviews and provide instant, semantic feedback on candidate answers 
 using advanced Natural Language Processing (NLP) techniques.. It utilizes Python and the Flask framework to create a web application for a seamless user experience.
