@@ -1,0 +1,108 @@
+/* Update 1: Ensure body background is light brown */
+body {
+    /* ... (other styles) ... */
+    min-height: 100vh;
+    background-color: #f5f5dc; /* Light Brown / Beige color (Applied to the surrounding area) */
+    box-sizing: border-box;
+}
+
+/* Update 2: Ensure chat container has a clean background (e.g., white) */
+.chat-container {
+    /* Existing styles: display, flex-direction, height, width, etc. */
+    background-color: #ffffff; /* White background for the chat box itself */
+    /* ... (other styles) ... */
+}
+
+.chat-header {
+    padding: 20px;
+    background-color: #007bff; /* Blue header for a professional look */
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    .chat-header i {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .chat-header .tagline {
+        font-size: 14px;
+        margin-top: 5px;
+        opacity: 0.8;
+    }
+
+.chat-display {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 400px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+    .message.user {
+        background-color: #dcf8c6; /* Light green for user messages */
+        align-self: flex-end;
+    }
+
+    .message.other {
+        background-color: #e0e0e0; /* Light gray for AI messages */
+        align-self: flex-start;
+    }
+
+.initial-message {
+    background-color: #e0f7fa; /* Light cyan background */
+    border-left: 5px solid #00bcd4; /* Accent color */
+    font-style: italic;
+    padding: 15px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.input-area {
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background-color: #f9f9f9;
+}
+
+#message-form {
+    display: flex;
+    gap: 10px;
+}
+
+.message-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+    .message-input:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+/* Update 3: Change send button to your desired green */
+.send-button {
+    background-color: #28a745; /* Your desired Green color */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Keep your existing rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.send-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
